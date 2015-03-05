@@ -1,0 +1,36 @@
+# Part 1
+>>> languages = languages + ["C++", "Java", "C#]
+>>> languages = languages + ["C++", "Java", "C#"]
+>>> languages
+['Python', 'Ruby', 'C++', 'Java', 'C#']
+# Part 2
+>>> languages = ["Haskell"] + languages
+>>> languages
+['Haskell', 'Python', 'Ruby', 'C++', 'Java', 'C#']
+# Part 3
+>>> languages += ["Go"]
+>>> languages
+['Haskell', 'Python', 'Ruby', 'C++', 'Java', 'C#', 'Go']
+# Part 4
+>>> languages[0]
+'Haskell'
+>>> languages[1]
+'Python'
+>>> languages[4]
+'Java'
+>>> languages[5] = "F#"
+>>> languages
+['Haskell', 'Python', 'Ruby', 'C++', 'Java', 'F#', 'Go']
+>>> languages[len(languages)-1]
+'Go'
+# Part 5
+>>> languages[len(languages)-1]
+'Go'
+>>> "Haskell" in languages
+True
+>>> "Ruby" in languages
+True
+>>> "Go" in languages
+True
+>>> "Rust" in languages
+False

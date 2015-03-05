@@ -5,3 +5,6 @@ https://mkaz.com/2012/10/10/python-string-format/
 Week 1
 http://www.tutorialspoint.com/python/python_strings.htm
 https://docs.python.org/2/library/time.html
+
+Week 2
+http://www.tutorialspoint.com/python/python_lists.htm
