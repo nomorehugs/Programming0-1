@@ -10,7 +10,7 @@ def numbers(digits):
 	n = 0
 	for digit in digits:
 		n = n * 10 + digit
-	return(n)
+	return n
 
 n = input("Enter n: ")
 n = int(n)
